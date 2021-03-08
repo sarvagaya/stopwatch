@@ -1,0 +1,36 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 20vh;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+}
+
+p:nth-of-type(2n) {
+    color: red;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 5vh;
+    width: 10vw;
+}
